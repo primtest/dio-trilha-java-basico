@@ -15,7 +15,7 @@ public class ContaTerminal {
         System.out.println("Cadastre um número de conta e tecle 'enter'");
         int conta = usuario.nextInt();
 
-        System.out.println("Cadastre o salde que deseja ter na sua conta");
+        System.out.println("Cadastre o saldo que deseja ter na sua conta");
         double saldo = usuario.nextDouble();
 
         System.out.println("Olá " + nomeUsuario + " obrigado por criar uma conta no nosso banco. a agência escolida foi " + agencia + " e sua conta é a de número " + conta + " com o " + saldo + " disponível.");
